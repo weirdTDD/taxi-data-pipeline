@@ -11,6 +11,6 @@ RUN uv sync --locked
 ENV PATH="/code/.venv/bin:$PATH"
 
 
-COPY pipeline.py .
+COPY ingest_data.py .
 
-ENTRYPOINT ["python", "pipeline.py" ]
+ENTRYPOINT ["python", "ingest_data.py" ]
