@@ -1,4 +1,4 @@
-# Taxi 001 Data Pipeline
+# Taxi Data Pipeline
 
 Small data engineering project for loading NYC Yellow Taxi trip data into PostgreSQL.
 
